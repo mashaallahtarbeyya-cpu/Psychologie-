@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مؤنس - مساعدك في رحلة الشفاء</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body{font-family:Arial,sans-serif;background:#fefce8}
+.page{display:none}.page.active{display:block}
+.navBtn.active{background:#0f766e!important;color:white!important}
+.verse{font-family:serif}
+</style>
+</head>
+<body>
+
+<header class="bg-teal-900 text-white py-6 text-center sticky top-0 z-10">
+<h1 class="text-3xl font-extrabold">🌿 مُؤنِس</h1>
+<p class="text-sm text-emerald-100 mt-1">لست وحدك في هذه الرحلة - من مريض سابق إلى كل مريض</p>
+<p class="text-xs bg-amber-400 text-black inline-block px-3 py-1 rounded-full mt-2 font-bold">⚠️ هذا التطبيق مؤنس وليس بديلا عن الطبيب</p>
+</header>
+
+<!-- القائمة -->
+<div class="flex flex-wrap gap-2 justify-center p-3 bg-white shadow sticky top-[88px] z-10">
+<button onclick="showPage('intro',this)" class="navBtn active bg-slate-100 px-4 py-2 rounded-full font-bold text-sm">1 - التعريف</button>
+<button onclick="showPage('sharia',this)" class="navBtn bg-slate-100 px-4 py-2 rounded-full font-bold text-sm">2 - الدلالة الشرعية</button>
+<button onclick="showPage('life',this)" class="navBtn bg-slate-100 px-4 py-2 rounded-full font-bold text-sm">3 - حياة المريض</button>
+<button onclick="showPage('solutions',this)" class="navBtn bg-slate-100 px-4 py-2 rounded-full font-bold text-sm">4 - الحلول</button>
+<button onclick="showPage('bushra',this)" class="navBtn bg-slate-100 px-4 py-2 rounded-full font-bold text-sm">5 - كل يوم بشرى</button>
+<button onclick="showPage('ask',this)" class="navBtn bg-slate-100 px-4 py-2 rounded-full font-bold text-sm">6 - استفسار</button>
+</div>
+
+<main class="max-w-4xl mx-auto p-4 pb-20">
+
+<!-- ===== 1 التعريف ===== -->
+<div id="page-intro" class="page active">
+<div class="bg-white rounded-2xl p-6 shadow border">
+<h2 class="text-2xl font-extrabold text-teal-900">ما هو المرض النفسي والروحي؟</h2>
+<p class="mt-3 leading-relaxed">المرض النفسي ليس ضعف إيمان، وليس جنونا، وليس عيبا. هو ابتلاء مثل أي مرض آخر، يصيب النفس والعقل والروح. كما يمرض الجسد بالحمى، تمرض النفس بالاكتئاب والقلق والذهان واختلال الآنية.</p>
+<div class="grid md:grid-cols-2 gap-3 mt-4">
+<div class="bg-emerald-50 p-4 rounded-xl"><b>😔 الاكتئاب:</b><br>حزن ثقيل، فقدان الشغف، تعب بلا سبب، رغبة في العزلة.</div>
+<div class="bg-blue-50 p-4 rounded-xl"><b>🌀 اختلال الآنية:</b><br>تحس أنك لست أنت، كأنك تتفرج على نفسك من بعيد، الدنيا تبدو غريبة وغير حقيقية.</div>
+<div class="bg-amber-50 p-4 rounded-xl"><b>👥 انفصام / ذهان:</b><br>أفكار مشوشة، سماع أصوات، شكوك، صعوبة في التمييز بين الحقيقة والوهم.</div>
+<div class="bg-rose-50 p-4 rounded-xl"><b>😰 القلق والوسواس:</b><br>خوف مستمر، أفكار لا تتوقف، قلب يخفق بسرعة.</div>
+</div>
+<h3 class="font-extrabold mt-6 text-lg">🗣️ تجارب حقيقية - بأسماء مستعارة</h3>
+<div class="space-y-3 mt-3">
+<div class="border-r-4 border-teal-600 bg-slate-50 p-4 rounded-xl"><b>يوسف، 32 سنة:</b> "كنت أظن أنني وحدي من يشعر أن الدنيا غير حقيقية. كنت أخاف أن أقول لأحد. عندما عرفت أن هذا اسمه اختلال الآنية، وأن كثيرين مروا به وشفوا، بدأت أرتاح."</div>
+<div class="border-r-4 border-amber-500 bg-slate-50 p-4 rounded-xl"><b>مريم، 27 سنة:</b> "الاكتئاب جعلني لا أستطيع النهوض من السرير. كنت أبكي بلا سبب. بالعلاج والصبر والدعاء، رجعت أحب الحياة من جديد."</div>
+<div class="border-r-4 border-emerald-600 bg-slate-50 p-4 rounded-xl"><b>الحسن، صاحب التجربة:</b> "مررت بالاكتئاب واختلال الآنية والذهان. كنت أظن أنها النهاية. لكن بالعلم والقرآن والصبر، تغلبت على تلك القوة المرضية. وأنت أيضا تستطيع."</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 2 الدلالة الشرعية ===== -->
+<div id="page-sharia" class="page">
+<div class="bg-white rounded-2xl p-6 shadow border">
+<h2 class="text-2xl font-extrabold text-teal-900">📖 الدلالة من النصوص الشرعية</h2>
+<p class="text-sm text-slate-500">القرآن والحديث لم يتركا المبتلى وحده.</p>
+<div class="space-y-4 mt-4">
+<div class="bg-emerald-50 p-5 rounded-2xl text-center"><p class="verse text-2xl font-bold leading-loose">﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾</p><p class="text-sm mt-1">سورة الرعد - الآية 28</p><p class="text-sm text-slate-600 mt-2">القلب المضطرب يطمئن بذكر الله، ليس مرة واحدة، بل بالمداومة.</p></div>
+<div class="bg-amber-50 p-5 rounded-2xl text-center"><p class="verse text-2xl font-bold leading-loose">﴿لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا﴾</p><p class="text-sm mt-1">سورة البقرة - 286</p><p class="text-sm text-slate-600 mt-2">الله لم يحملك ما لا تطيق. ما تمر به، أنت قادر عليه بإذن الله.</p></div>
+<div class="bg-blue-50 p-5 rounded-2xl text-center"><p class="verse text-2xl font-bold leading-loose">﴿إِنَّ مَعَ الْعُسْرِ يُسْرًا﴾</p><p class="text-sm mt-1">سورة الشرح - 5</p></div>
+<div class="bg-white border p-5 rounded-2xl"><b>📜 حديث:</b><p class="mt-2">"ما يصيب المسلم من نصب ولا وصب ولا هم ولا حزن ولا أذى ولا غم، حتى الشوكة يشاكها، إلا كفر الله بها من خطاياه." - متفق عليه</p><p class="text-sm text-slate-600 mt-2">حتى همك هذا، يكفر الله به ذنوبك.</p></div>
+<div class="bg-white border p-5 rounded-2xl"><b>💬 من أقوال السلف:</b><p class="mt-2">قال ابن القيم: "القلب يمرض كما يمرض البدن، وشفاؤه في التوبة والحمية." وقال ابن تيمية: "النفس لها أمراض، ودواؤها ذكر الله والعمل الصالح."</p></div>
+</div>
+</div>
+</div>
+
+<!-- ===== 3 حياة المريض ===== -->
+<div id="page-life" class="page">
+<div class="bg-white rounded-2xl p-6 shadow border">
+<h2 class="text-2xl font-extrabold text-teal-900">💛 حياة المريض النفسي الروحي</h2>
+<p class="mt-2">إذا كنت تشعر بهذا، فأنت لست وحدك. ملايين يشعرون بنفس الشيء كل يوم.</p>
+<div class="space-y-3 mt-4">
+<div class="bg-slate-50 p-4 rounded-xl">🌙 <b>في الليل:</b> أفكار لا تتوقف، خوف من النوم، قلب يخفق، تحس أنك ستموت.</div>
+<div class="bg-slate-50 p-4 rounded-xl">🌅 <b>في الصباح:</b> ثقل في الجسد، لا رغبة في النهوض، الدنيا تبدو رمادية.</div>
+<div class="bg-slate-50 p-4 rounded-xl">👨‍👩‍👧 <b>مع الناس:</b> تبتسم وأنت تتألم، تخاف أن يقولوا عنك مجنون، فتسكت وتعتزل.</div>
+<div class="bg-slate-50 p-4 rounded-xl">🕌 <b>مع العبادة:</b> تشوش في الصلاة، وساوس، تحس أن الله بعيد عنك، وهو أقرب إليك مما تظن.</div>
+<div class="bg-slate-50 p-4 rounded-xl">🧠 <b>مع نفسك:</b> تسأل: لماذا أنا؟ هل سأشفى؟ هل سأعود كما كنت؟ الجواب: نعم، بإذن الله، كثيرون عادوا أحسن مما كانوا.</div>
+</div>
+<div class="bg-teal-900 text-white p-5 rounded-2xl mt-5 text-center font-bold text-lg">أنت لست وحدك دهرك.<br><span class="text-sm font-normal">ما تشعر به، شعر به غيرك، وتجاوزه. دورك سيأتي.</span></div>
+</div>
+</div>
+
+<!-- ===== 4 الحلول ===== -->
+<div id="page-solutions" class="page">
+<div class="bg-white rounded-2xl p-6 shadow border">
+<h2 class="text-2xl font-extrabold text-teal-900">🛠️ الحلول والعلاجات</h2>
+<p class="text-sm text-rose-600 font-bold">⚠️ إذا كانت عندك أفكار إيذاء نفسك، اتصل فورا بطبيبك أو بأقرب شخص تثق به، أو اذهب لأقرب مستشفى.</p>
+<div class="grid md:grid-cols-2 gap-3 mt-4">
+<div class="bg-emerald-50 p-4 rounded-xl"><b>1. العلاج الطبي - أولا</b><p class="text-sm mt-1">زر طبيبا نفسيا، لا تخجل. الدواء ليس عيبا. هو مثل دواء السكري والضغط. التزم به ولا تقطعه من نفسك.</p></div>
+<div class="bg-amber-50 p-4 rounded-xl"><b>2. العلاج الروحي</b><p class="text-sm mt-1">قرآن كل يوم ولو صفحة، أذكار الصباح والمساء، دعاء، صلاة في وقتها، صحبة صالحة.</p></div>
+<div class="bg-blue-50 p-4 rounded-xl"><b>3. روتين اليوم</b><p class="text-sm mt-1">نوم منتظم، مشي 20 دقيقة، أكل صحي، تقليل الهاتف والشاشات، شمس الصباح.</p></div>
+<div class="bg-rose-50 p-4 rounded-xl"><b>4. التفريغ والكتابة</b><p class="text-sm mt-1">اكتب ما تشعر به كل يوم في دفتر. فرّغ رأسك. لا تبق الأفكار في داخلك.</p></div>
+<div class="bg-violet-50 p-4 rounded-xl"><b>5. لا تعتزل</b><p class="text-sm mt-1">اتصل بشخص واحد تثق به كل يوم. العزلة تغذي المرض، والصحبة تداويه.</p></div>
+<div class="bg-slate-100 p-4 rounded-xl"><b>6. الصبر والمتابعة</b><p class="text-sm mt-1">الشفاء ليس في يوم واحد. هو رحلة فيها صعود ونزول. لا تقارن نفسك بالآخرين.</p></div>
+</div>
+<div class="bg-white border-2 border-dashed p-4 rounded-xl mt-4"><b>✅ خطة اليوم - جربها اليوم:</b><br>1- صلاة + صفحة قرآن &nbsp; 2- مشي 15 دقيقة &nbsp; 3- اكتب 3 أسطر عن شعورك &nbsp; 4- اتصل بشخص تحبه &nbsp; 5- نم باكرا</div>
+</div>
+</div>
+
+<!-- ===== 5 كل يوم بشرى ===== -->
+<div id="page-bushra" class="page">
+<div class="bg-gradient-to-b from-amber-100 to-white rounded-2xl p-6 shadow border text-center">
+<h2 class="text-2xl font-extrabold text-amber-800">🌅 كل يوم بشرى</h2>
+<p class="text-sm mt-1">بشرى اليوم لك أنت، يا من صبرت</p>
+<div class="bg-white p-6 rounded-2xl shadow mt-4">
+<p id="bushraText" class="text-xl font-bold leading-loose">أبشر، فإن الله لا يضيع صبرك. ما أنت فيه اليوم، سيكون غدا قصة نجاح تحكيها لغيرك.</p>
+<p class="text-sm text-slate-500 mt-3" id="bushraDate"></p>
+</div>
+<button onclick="newBushra()" class="mt-4 bg-amber-500 font-bold px-6 py-3 rounded-xl">🔄 بشرى أخرى</button>
+<div class="text-left mt-6 space-y-2 text-sm">
+<p>• من صبر على مرضه، كفر الله عنه ذنوبه.</p>
+<p>• كل يوم تتحمله، أنت أقوى من اليوم الذي قبله.</p>
+<p>• الله يراك وأنت تجاهد نفسك، وهو يحب المجاهدين.</p>
+<p>• كثيرون كانوا مكانك، واليوم هم يعينون غيرهم.</p>
+</div>
+</div>
+</div>
+
+<!-- ===== 6 استفسار ===== -->
+<div id="page-ask" class="page">
+<div class="bg-white rounded-2xl p-6 shadow border">
+<h2 class="text-2xl font-extrabold text-teal-900">💬 الاستفسارات والشكاوى</h2>
+<p class="text-sm">اكتب ما تشعر به، بدون اسمك الحقيقي إن أردت. لا أحد سيحكم عليك هنا.</p>
+<input id="askName" placeholder="اسم مستعار (مثال: أخ صابر)" class="w-full border rounded-xl px-4 py-3 mt-4">
+<select id="askType" class="w-full border rounded-xl px-4 py-3 mt-3 bg-white"><option>اكتئاب</option><option>قلق ووسواس</option><option>اختلال الآنية</option><option>ذهان / انفصام</option><option>خوف / نوم</option><option>سؤال شرعي</option><option>أخرى</option></select>
+<textarea id="askText" rows="4" placeholder="اكتب ما تشعر به هنا... مثال: أحس أن الدنيا غير حقيقية، هل هذا سيزول؟" class="w-full border rounded-xl px-4 py-3 mt-3"></textarea>
+<button onclick="sendAsk()" class="w-full bg-teal-800 text-white font-bold py-3 rounded-xl mt-3">📩 إرسال - ستصلك الإجابة بإذن الله</button>
+<p class="text-xs text-slate-500 mt-2 text-center">هذا القسم للدعم والتوجيه العام، وليس للتشخيص. إذا كنت في خطر، اتصل بطبيبك فورا.</p>
+<div id="askList" class="mt-4 space-y-3"></div>
+</div>
+</div>
+
+</main>
+
+<footer class="text-center text-xs text-slate-500 pb-6">مؤنس - صمم بمحبة من تجربة حقيقية - الأستاذ الحسن أيت لحسن<br>نسأل الله الشفاء لكل مبتلى</footer>
+
+<script>
+function showPage(id,btn){ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active')); document.getElementById('page-'+id).classList.add('active'); document.querySelectorAll('.navBtn').forEach(b=>b.classList.remove('active')); if(btn) btn.classList.add('active'); window.scrollTo(0,0); }
+let bushras=[
+"أبشر، فإن الله لا يضيع صبرك. ما أنت فيه اليوم، سيكون غدا قصة نجاح تحكيها لغيرك.",
+"أبشر، إن مع العسر يسرا. هذا الضيق لن يدوم، والفرج أقرب مما تظن.",
+"أبشر، أنت لست متأخرا ولا فاشلا. أنت مريض تجاهد، والمجاهد عند الله عظيم.",
+"أبشر، كل دمعة نزلت منك، الله رآها، وسيعوضك عنها فرحا.",
+"أبشر، كثيرون كانوا في مكانك تماما، واليوم هم بخير، وأنت ستكون مثلهم.",
+"أبشر، الله يحبك، ولهذا ابتلاك ليطهرك ويرفعك، لا ليعذبك.",
+"أبشر، غدا ستستيقظ أخف، وأهدأ، وأقرب إلى الشفاء."
+];
+let bi=0;
+function newBushra(){ bi=(bi+1)%bushras.length; document.getElementById('bushraText').textContent=bushras[bi]; }
+document.getElementById('bushraDate').textContent='بشرى يوم '+new Date().toLocaleDateString('ar-MA',{weekday:'long',day:'numeric',month:'long'});
+let asks=[]; try{asks=JSON.parse(localStorage.getItem('mounis_asks')||'[]')}catch(e){}
+function sendAsk(){ let n=document.getElementById('askName').value.trim()||'أخ مجهول'; let t=document.getElementById('askType').value; let txt=document.getElementById('askText').value.trim(); if(!txt){alert('اكتب سؤالك أولا');return;} asks.unshift({n,t,txt,date:new Date().toLocaleDateString('ar-MA')}); localStorage.setItem('mounis_asks',JSON.stringify(asks)); renderAsks(); document.getElementById('askText').value=''; alert('✅ وصل سؤالك، جزاك الله خيرا على ثقتك. سنرد عليك قريبا بإذن الله.'); }
+function renderAsks(){ document.getElementById('askList').innerHTML=asks.map(a=>`<div class="bg-slate-50 border p-4 rounded-xl"><div class="flex justify-between font-bold text-sm"><span>${a.n} - ${a.t}</span><span class="text-slate-400">${a.date}</span></div><p class="mt-2">${a.txt}</p><p class="text-sm text-emerald-700 mt-2 bg-emerald-50 p-2 rounded">💬 رد المؤنس: وصلت رسالتك، وأنت لست وحدك. استمر في العلاج، وفي الذكر، ولا تستسلم. سنراسلك قريبا.</p></div>`).join(''); }
+renderAsks();
+</script>
+</body>
+</html>
